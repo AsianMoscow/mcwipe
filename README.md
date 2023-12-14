@@ -1,8 +1,4 @@
-Получить все версии пакетов, установленных на вашем компьютере, можно командой pip freeze
 pip freeze > requirements.txt
-
-Все пакеты из requirements.txt можно установить одним махом, пип такое умеет: 
-pip install -r requirements.txt
 ========================================================================
 Create a python file whatever you like. I’m going to call mine test.py.
 
@@ -36,7 +32,3 @@ sudo systemctl daemon-reload
 Let’s enable our service so that it doesn’t get disabled if the server restarts.
 
 sudo systemctl enable test.service
-
-And now let’ start our service.
-
-sudo systemctl start test.service
