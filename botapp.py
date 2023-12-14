@@ -15,7 +15,7 @@ if platform == 'win32':
 elif platform == 'linux':
     tg = open('/etc/opt/mcwipe_telegram_token').read()
 
-print(tg)
+print("TOKEN >" + tg + "<")
 
 
 # Bot token can be obtained via https://t.me/BotFather
