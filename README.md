@@ -1,1 +1,1 @@
-# mcwipe
+pip freeze > requirements.txt
